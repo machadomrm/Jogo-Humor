@@ -12,6 +12,12 @@ html{
     scroll-behavior: smooth;
 }
 
+#body {
+    background-image: "./assets/img/madeira.png";
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+}
+
 nav{
     background-color: #003566;
     position: fixed;
