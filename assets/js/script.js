@@ -3,7 +3,7 @@ var cont=0;
 function trocarHumor(){
     cont++;
     if (cont==1){
-        document.getElementById("Pica Pau").src = "./assets/img/segunda.png";
+        document.getElementById("Pica Pau").src = "./assets/img/segunda2.png";
         document.getElementById("texto").innerHTML = "CANSADO &#128564 na Segunda";
     }
     else if (cont==2){

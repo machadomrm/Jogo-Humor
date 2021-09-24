@@ -12,9 +12,9 @@ html{
     scroll-behavior: smooth;
 }
 
-#body {
-    background-image: "./assets/img/madeira.png";
-    background-size: 100px 80px;
+body {
+    background-image: url("../img/madeira2.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -45,7 +45,6 @@ header#inicio{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7b2cbf;
     padding-top: 10rem;
     padding-bottom: 10rem;
     width: 100%;
@@ -67,7 +66,6 @@ section#personagem{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c77dff;
     padding-top: 8rem;
     padding-bottom: 8rem;
     width: 100%;
@@ -92,7 +90,6 @@ section#personagem div p{
 }
 
 section#curiosidades{
-    background-color: #e0aaff;
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
@@ -117,8 +114,31 @@ section#curiosidades div img{
     
 }
 
+section#movies{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+section#movies div h2{
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Sacramento';
+}
+
+section#movies div h3{
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+iframe {
+    margin-left: 6rem;
+    padding: 1rem;
+}
+
 section#humor{
-    background-color: #cddcdf;
+    /* background-color: #cddcdf; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,5 +194,5 @@ footer{
 footer p{
     width: 100%;
     text-align: center;
-    font-size: .8rem;
+    font-size: rem;
 }
