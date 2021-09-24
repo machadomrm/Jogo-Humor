@@ -11,11 +11,11 @@ function trocarHumor(){
         document.getElementById("texto").innerHTML = "FELIZ &#128512 na Terça";
     }
     else if (cont==3){
-        document.getElementById("Pica Pau").src = "./assets/img/Irritado.png";
+        document.getElementById("Pica Pau").src = "./assets/img/irritado1.png";
         document.getElementById("texto").innerHTML = "IRRITADO &#128544 na Quarta";
     }
     else if (cont==4){
-        document.getElementById("Pica Pau").src = "./assets/img/biruta.png";
+        document.getElementById("Pica Pau").src = "./assets/img/biruta1.png";
         document.getElementById("texto").innerHTML = "SURTADO &#129322 na Quinta";
     }
     else if (cont==5){
