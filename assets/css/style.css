@@ -16,6 +16,7 @@ body {
     background-image: url("../img/madeira2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 nav{
@@ -35,7 +36,7 @@ nav ul li{
 }
 
 nav ul li a{
-    font-family: 'Sacramento', cursive;
+    font-family: 'Sacramento', 'cursive';
     text-decoration: none;
     color: #F2F2F2;
     font-size: 3vw;
@@ -54,7 +55,7 @@ header#inicio h1{
     text-align: center;
     color: black;
     font-size: 8vw;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Sacramento', 'cursive';
  }
 
  header#inicio img{
@@ -74,12 +75,12 @@ section#personagem{
 section#personagem div img{
     display: auto;
     margin: auto;
-    width: 600px;
+    width: 100%;
     padding-top: 4rem;
 }
 
-section#personagem div spam{
-    font-family: 'Sacramento', cursive;
+section#personagem div spam {
+    font-family: 'Sacramento', 'cursive';
     font-size: 3vw;
     color: #0D0D0D;
 }
@@ -110,13 +111,13 @@ section#curiosidades div h3{
 section#curiosidades div img{
     display: block;
     margin: auto;
-    width: 70%;
-    
+    max-width: 100%;
+    min-width: 70%;    
 }
 
 section#movies{
     padding-top: 8rem;
-    padding-bottom: 8rem;
+    padding-bottom: 8rem;    
 }
 
 section#movies div h2{
@@ -132,13 +133,47 @@ section#movies div h3{
     padding-bottom: 2rem;
 }
 
-iframe {
-    margin-left: 6rem;
-    padding: 1rem;
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+  }
+  
+.responsive-iframe1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-left: 3%;
+    right: 0;
+    width: 40%;
+    height: 50%;
 }
 
-section#humor{
-    /* background-color: #cddcdf; */
+  .responsive-iframe2 {
+    position: absolute;
+    top: 55%;
+    margin-right: 30%;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 50%;
+  }
+
+  .responsive-iframe3 {
+    position: absolute;
+    top: 0;
+    left: 100;
+    bottom: 0;
+    margin-right: 3%;
+    right: 0;
+    width: 40%;
+    height: 50%;
+  }
+
+
+  section#humor{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,7 +209,8 @@ section#humor div button:hover{
 
 section#humor div img{
     padding-top: 2rem;
-    width: 70%;
+    max-width: 70%;
+    min-width: 70%;   
 }
 
 section#humor div p#texto{
@@ -194,5 +230,5 @@ footer{
 footer p{
     width: 100%;
     text-align: center;
-    font-size: 2rem;
+    font-size: .7vw;
 }

@@ -35,9 +35,9 @@ Separe as implementações em três partes, construção do HTML, estilização 
                 <li> <a href="#humor"> Humor </a> </li>
             </ul>
         </nav>
-        <audio controls autoplay>
+        <!-- <audio controls autoplay>
             <source src="./assets/audio/Tema de abertura Pica Pau.mp3" type="audio/mpeg">
-          </audio>
+          </audio> -->
 
         <header id="inicio">
             <h1>Jogo do Humor</h1>
@@ -69,28 +69,27 @@ Separe as implementações em três partes, construção do HTML, estilização 
         <section id="movies">
             <div>
                 <h2>Videos para assistir</h2>
-            </div>
-            <div>
                 <h3>Quem nunca assistiu aos grandes clássicos como: Fígaro, Vamos as Cataratas ou Frank o Puxa Frangos?</h3>
-                <iframe width="950" height="600" src="https://www.youtube.com/embed/NR_IeTnMYwo" title="Pica Pau Fígaro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                <iframe width="950" height="600" src="https://www.youtube.com/embed/HhClfEfb2qo" title="Vamos as Cataratas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                <iframe width="950" height="600" src="https://www.youtube.com/embed/BAgn7WmGdAU" title="Frank o Puxa Frangos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+          
+            <div class="container">
+                <iframe class="responsive-iframe1" src="https://www.youtube.com/embed/NR_IeTnMYwo" title="Pica Pau Fígaro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                <iframe class="responsive-iframe2" src="https://www.youtube.com/embed/HhClfEfb2qo" title="Vamos as Cataratas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                <iframe class="responsive-iframe3" src="https://www.youtube.com/embed/BAgn7WmGdAU" title="Frank o Puxa Frangos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+              </div>
         </section>
         
         <section id="humor">
-             <div>
-                <p>Quer descobrir como nosso amado<br><b>Pica Pau</b> pode se sentir durante a semana?</p>
-                <button onclick="trocarHumor()">Ver humor</button>
-                <img id="Pica Pau" src="./assets/img/picapau.png">
-                <p id="texto">
-            </div>
-        </section>
+            <div>
+               <p>Quer descobrir como nosso amado<br><b>Pica Pau</b> pode se sentir durante a semana?</p>
+               <button onclick="trocarHumor()">Ver humor</button>
+               <img id="Pica Pau" src="./assets/img/picapau.png">
+               <p id="texto">
+           </div>
+       </section>
 
-        <footer>
-            <p><i>Todos os direitos reservados para: Marcelo Rocha Machado &copy</i></p>
-       </footer>
-    </body>
+       <footer>
+           <p><i>Todos os direitos reservados para: Marcelo Rocha Machado &copy</i></p>
+      </footer>
+   </body>
 </html>
