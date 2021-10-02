@@ -16,11 +16,11 @@ function trocarHumor(){
     }
     else if (cont==4){
         document.getElementById("Pica Pau").src = "./assets/img/biruta1.png";
-        document.getElementById("texto").innerHTML = "SURTADO &#129322 na Quinta";
+        document.getElementById("texto").innerHTML = "BIRUTA &#129322 na Quinta";
     }
     else if (cont==5){
         document.getElementById("Pica Pau").src = "./assets/img/sextou.jpg";
-        document.getElementById("texto").innerHTML = "E finalmente SEXTOU &#129395 para o Pica Pau";
+        document.getElementById("texto").innerHTML = "SEXTOU &#129395 para o Pica Pau";
     }
     else if (cont==6){
         document.getElementById("Pica Pau").src = "./assets/img/inicio.jpg";
